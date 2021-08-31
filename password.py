@@ -9,7 +9,7 @@ def g(d):
 while True:
     password = input('Enter your password: ')
     if len(password) >= 8 and f(password) and g(password):
-        print('Secure password')
+        print('Secure password!')
         exit()
     else:
         retry = ''
